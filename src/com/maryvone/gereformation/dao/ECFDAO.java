@@ -1,6 +1,7 @@
 
 package com.maryvone.gereformation.dao;
 
+import src.com.maryvone.gereformation.dao.DBConnect;
 import com.maryvone.gereformation.model.*;
 
 import java.sql.*;

@@ -1,5 +1,6 @@
 package com.maryvone.gereformation.dao;
 
+import src.com.maryvone.gereformation.dao.DBConnect;
 import com.maryvone.gereformation.model.Personnel;
 import com.maryvone.gereformation.model.Sequence;
 

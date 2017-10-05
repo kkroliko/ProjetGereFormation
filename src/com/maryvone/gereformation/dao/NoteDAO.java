@@ -1,5 +1,6 @@
 package com.maryvone.gereformation.dao;
 
+import src.com.maryvone.gereformation.dao.DBConnect;
 import com.maryvone.gereformation.model.ECF;
 import com.maryvone.gereformation.model.Note;
 import com.maryvone.gereformation.model.Stagiaire;

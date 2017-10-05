@@ -1,4 +1,4 @@
-package com.maryvone.gereformation.dao;
+package src.com.maryvone.gereformation.dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,7 +20,7 @@ public class DBConnect {
 
             try {
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                conn = DriverManager.getConnection(URL, "root", "mcueff123");
+                conn = DriverManager.getConnection(URL, "root", "Wowzillah");
             } catch (SQLException sqlE) {
                 System.out.println("Sql Erreur " + sqlE.getMessage());
                 throw new RuntimeException();
